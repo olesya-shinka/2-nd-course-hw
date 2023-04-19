@@ -32,12 +32,10 @@ body {
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
 }
 .thumbnail {
-    font-weight: 600;
+    font-weight: 700;
 }
 .top_content__button {
     margin-top: 44px;
@@ -70,7 +68,6 @@ body {
     color: #FFFFFF;
     align-items: flex-end;
     align-self: center;
-    padding-bottom: 32px;
     padding-left: 32px;
     background-size: cover;
 }
