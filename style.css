@@ -1,3 +1,7 @@
+@charset "UTF-8";
+@import '_main.css';
+@import '_mobile.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -121,5 +125,4 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-@import '_mobile.css'
-/*# sourceMappingURL=style.css.map */
+
