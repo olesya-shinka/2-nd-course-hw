@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    .center {
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .top_content__title {
+            width: 343px;
+            height: 77.44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+    .top_content__text {
+            width: 343px;
+            height: 66px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    
+    
