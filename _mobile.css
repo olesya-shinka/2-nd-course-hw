@@ -4,13 +4,19 @@
         padding-right: 16px;
         padding-left: 16px;
     }
+    .top_content {
+        background-image: url(img/top-background.jpg);
+        background-position: center;
+        
+    }
     .top_content__title {
             width: 343px;
-            height: 77.44px;
+            height: 77px;
             font-style: normal;
             font-weight: 700;
             font-size: 32px;
             line-height: 39px;
+            text-align: center;
         }
     .top_content__text {
             width: 343px;
@@ -19,7 +25,12 @@
             font-weight: 300;
             font-size: 14px;
             line-height: 22px;
+            text-align: center;
         }
+    .top_content__button {
+        margin-left: 54px;
+        margin-right: 54px;
+    }
     }
     
     
