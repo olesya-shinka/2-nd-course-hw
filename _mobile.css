@@ -8,25 +8,26 @@
         background-image: url(img/top-back\ mob.jpg);
         background-repeat: no-repeat;
         height: 735px;
+        background-size: cover;
     }
     .top_content__title {
-            width: 343px;
-            height: 77px;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 39px;
-            text-align: center;
-        }
+        width: 343px;
+        height: 77px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
     .top_content__text {
-            width: 343px;
-            height: 66px;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 22px;
-            text-align: center;
-        }
+        width: 343px;
+        height: 66px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
     .top_content__button {
         margin-left: 54px;
         margin-right: 54px;
