@@ -10,8 +10,8 @@
   
   body {
     font-family: "Montserrat", sans-serif;
+    background-color: #000915;
   }
-  
   .top_content {
     background-image: url(img/top-background.jpg);
     height: 1024px;
@@ -29,7 +29,7 @@
   }
   
   .top_content__text {
-    width: 481px;
+    max-width: 481px;
     height: 64px;
     margin-top: 32px;
     font-style: normal;
@@ -37,10 +37,6 @@
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
-  }
-  
-  .thumbnail {
-    font-weight: 700;
   }
   
   .top_content__button {
