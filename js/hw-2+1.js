@@ -36,13 +36,14 @@ alert(num);
 let age = prompt ("Сколько Вам лет?");
 alert (age);
 
-objectUser.propertyUser;
-let user = new Object;
-user.name = "Ivan";
-user.age = Number(35);
-user.isAdmin = Boolean(true);
-user["city of residence"] = "Ekaterinburg";
 
-let info = prompt ("Какую информацию хотите узнать о пользователе?");
-let allinfo = new Object;
-alert(allinfo);
+const user = {
+    name: 'Ivan',
+    age: Number(35),
+    isAdmin: Boolean(true),
+    [cityofresidence]: 'EKB',
+}
+
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user);
+console.log("Какую информацию хотите узнать о пользователе?");
