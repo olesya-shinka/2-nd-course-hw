@@ -41,9 +41,17 @@ const user = {
     name: 'Ivan',
     age: Number(35),
     isAdmin: Boolean(true),
-    [cityofresidence]: 'EKB',
+    cityofresidence: 'EKB',
 }
+user.age = Number(20);
 
 let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert(user);
+alert(user.name);
+alert(user.age);
+alert(user.isAdmin);
 console.log("Какую информацию хотите узнать о пользователе?");
+
+let greetings = prompt("Как Ваше имя?");
+alert(`Привет, ${greetings} !`)
+console.log("Как Ваше имя?");
+
