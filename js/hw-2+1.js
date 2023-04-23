@@ -32,3 +32,17 @@ num /= 3;
 ++num;
 --num;
 alert(num);
+
+let age = prompt ("Сколько Вам лет?");
+alert (age);
+
+objectUser.propertyUser;
+let user = new Object;
+user.name = "Ivan";
+user.age = Number(35);
+user.isAdmin = Boolean(true);
+user["city of residence"] = "Ekaterinburg";
+
+let info = prompt ("Какую информацию хотите узнать о пользователе?");
+let allinfo = new Object;
+alert(allinfo);

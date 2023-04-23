@@ -1,6 +1,5 @@
 @media (max-width: 767px) {
     .center {
-    
         padding-right: 16px;
         padding-left: 16px;
     }
@@ -9,6 +8,8 @@
         background-repeat: no-repeat;
         height: 735px;
         background-size: cover;
+        display: flex;
+        align-items: center;
     }
     .top_content__title {
         width: 343px;
