@@ -1,0 +1,62 @@
+@media (max-width: 767px) {
+    .center {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .top_content {
+        background-image: url(img/top-back\ mob.jpg);
+        background-repeat: no-repeat;
+        height: 735px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+    .top_content__title {
+        width: 343px;
+        height: 77px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .top_content__text {
+        width: 343px;
+        height: 66px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .top_content__button {
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 32px;
+    }
+    .games {
+        display: flex;
+        height: 1221px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .game_item {
+        box-sizing: border-box;
+        padding-left: 13px;
+        width: 375px;
+    }
+    .game_item_1 {
+        width: 343px;
+        height: 300px;
+    }
+    .game_item_2 {
+        width: 343px;
+        height: 300px;
+    }
+    .game_item_3 {
+        width: 343px;
+        height: 300px;
+    }
+}
+    
+    
