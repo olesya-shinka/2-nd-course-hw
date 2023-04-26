@@ -66,4 +66,3 @@ console.log("Какую информацию хотите узнать о пол
 let greetings = prompt("Как Ваше имя?");
 alert(`Привет, ${greetings} !`)
 console.log("Как Ваше имя?");
-

@@ -42,7 +42,7 @@
     color: #FFFFFF;
   }
   
-  .top_content__button {
+  .button {
     margin-top: 44px;
     width: 234px;
     height: 49px;
@@ -56,7 +56,7 @@
     color: #FFFFFF;
   }
   
-  .top_content__button:hover {
+  .button:hover {
     background: #EB443F;
   }
   
@@ -118,4 +118,41 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .footer_content {
+    background-image: url(img/footer-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin-top: 282px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_content__title {
+    width: 377px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .footer_content__text {
+    width: 584px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+  }
+  .footer_images {
+    display: flex;
+    justify-content: flex-end;
+    width: 485px;
+    height: 333px;
+    margin-left: 720px;
   }
