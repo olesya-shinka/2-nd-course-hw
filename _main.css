@@ -17,6 +17,8 @@
     height: 1024px;
     display: flex;
     flex-direction: column;
+    background-size: cover;
+    background-position: center;
   }
   
   .top_content__title {
@@ -53,7 +55,9 @@
     font-size: 18px;
     line-height: 22px;
     align-items: center;
+    display: flex;
     color: #FFFFFF;
+    justify-content: center;
   }
   
   .button:hover {
@@ -119,16 +123,15 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  .footer_content {
-    background-image: url(img/footer-back.jpg);
+  .step1_content {
+    background-image: url(img/step1-back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
     margin-top: 282px;
     display: flex;
     flex-direction: column;
   }
-  .footer_content__title {
+  .step1_content__title {
     width: 377px;
     font-style: normal;
     font-weight: 700;
@@ -138,7 +141,7 @@
     align-items: center;
     color: #FFFFFF;
   }
-  .footer_content__text {
+  .step1_content__text {
     width: 584px;
     font-style: normal;
     font-weight: 300;
@@ -149,10 +152,40 @@
     color: #FFFFFF;
     margin-top: 32px;
   }
-  .footer_images {
+  .step1_images {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     width: 485px;
     height: 333px;
     margin-left: 720px;
+  }
+  .step2_content {
+    background-image: url(img/step2-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .step2_content__title {
+    width: 396px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .step2_content__text {
+    width: 588px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 32px;
   }
