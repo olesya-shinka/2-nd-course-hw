@@ -59,11 +59,11 @@
     color: #FFFFFF;
     justify-content: center;
   }
-  
+
   .button:hover {
     background: #EB443F;
   }
-  
+
   .games {
     background-image: url(img/top-background\ game.jpg);
     height: 556px;
@@ -167,6 +167,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-bottom: 250px;
   }
   .step2_content__title {
     width: 396px;
@@ -177,6 +178,7 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    margin-right: 190px;
   }
   .step2_content__text {
     width: 588px;
@@ -188,4 +190,93 @@
     align-items: center;
     color: #FFFFFF;
     margin-top: 32px;
+  }
+  .button_step2 {
+    margin-top: 44px;
+    width: 234px;
+    height: 49px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-right: 355px;
+  }
+  .button_step2:hover {
+    background: #EB443F;
+  }
+  .step3_content {
+    background-image: url(img/step3-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 276px;
+  }
+  .step3_content__title {
+    width: 392px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .step3_content__text {
+    width: 1200px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+  }
+  .button_step3 {
+    margin-top: 44px;
+    width: 234px;
+    height: 49px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 288px;
+  }
+  .button_step3:hover {
+    background: #EB443F;
+  }
+  .footer {
+    background-image: url(img/footer.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .footer_text {
+    width: 136px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    
   }
