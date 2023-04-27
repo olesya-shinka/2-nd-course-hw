@@ -130,6 +130,7 @@
     margin-top: 282px;
     display: flex;
     flex-direction: column;
+    width: 584px;
   }
   .step1_content__title {
     width: 377px;
@@ -153,12 +154,9 @@
     margin-top: 32px;
   }
   .step1_images {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
     width: 485px;
     height: 333px;
-    margin-left: 720px;
+    margin-left: 839px;
   }
   .step2_content {
     background-image: url(img/step2-back.jpg);
@@ -168,6 +166,7 @@
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: 250px;
+    margin-top: 282px;
   }
   .step2_content__title {
     width: 396px;
@@ -190,6 +189,10 @@
     align-items: center;
     color: #FFFFFF;
     margin-top: 32px;
+  }
+  .step2_images {
+    width: 481px;
+    height: 322px;
   }
   .button_step2 {
     margin-top: 44px;
