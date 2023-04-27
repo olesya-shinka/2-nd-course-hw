@@ -66,7 +66,7 @@
 
   .games {
     background-image: url(img/top-background\ game.jpg);
-    height: 556px;
+    
     display: flex;
     gap: 32px;
     padding-top: 128px;
@@ -130,10 +130,9 @@
     margin-top: 282px;
     display: flex;
     flex-direction: column;
-    width: 584px;
   }
   .step1_content__title {
-    width: 377px;
+    max-width: 377px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -143,7 +142,7 @@
     color: #FFFFFF;
   }
   .step1_content__text {
-    width: 584px;
+    max-width: 584px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -165,7 +164,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-bottom: 250px;
+    
     margin-top: 282px;
   }
   .step2_content__title {
@@ -273,7 +272,7 @@
     margin-bottom: 32px;
   }
   .footer_text {
-    width: 136px;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
