@@ -1,12 +1,11 @@
 //задание 1
 
-let password = Number(123);
-let answer = Number(prompt('Введите пароль'));
+let password = Number(prompt('Введите пароль'));
 if (password == 123) {
-    alert ('Пароль введен верно')
+    alert('Пароль введен верно')
 } else {
-    alert ('Пароль введен неправильно')
-};
+    alert('Пароль введен неправильно')
+}
 
 //задание 2
 
@@ -90,12 +89,13 @@ if (clientOS == 0) {
 //задание 9
 
 let clientDeviceYear = prompt('Введите год выпуска Вашего телефона');
-if (clientOS == 0 && clientDeviceYear < 2015) {
+let clientOSx = prompt('Если у Вас IOS, то введите 0; Если у Вас android, то введите 1');
+if (clientOSx == 0 && clientDeviceYear < 2015) {
     alert('Установите облегченную версию приложения для iOS по ссылке')
-} else if (clientOS == 0 && clientDeviceYear > 2015) {
+} else if (clientOSx == 0 && clientDeviceYear > 2015) {
     alert('Установите версию приложения для iOS по ссылке')
 }
-if (clientOS == 1 && clientDeviceYear < 2015) {
+if (clientOSx == 1 && clientDeviceYear < 2015) {
     alert('Установите облегченную версию приложения для Android по ссылке')
 }
 else if (clientOS == 1 && clientDeviceYear > 2015) {
