@@ -43,3 +43,15 @@ while (n > 50) {
     console.log(num);
     console.log(n);
 }
+
+//задание 6
+
+let day = Number(prompt('Введите число, которое будет являться днем отсчета(первой пятницей)'));
+for (let day = 0; day <= 31; day++) {
+    if (day == 5 || day == 12 || day == 19 || day == 26) {
+        console.log(`Сегодня пятница, ${day}  число. Необходимо подготовить отчет.`);
+    } 
+    else {
+        console.log('это не пятница')
+    }
+}
