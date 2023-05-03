@@ -1,121 +1,282 @@
-
 * {
-    margin: 0;
-    padding: 0;
-  }
-  .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
-  }
+  margin: 0;
+  padding: 0;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000915;
+}
+.top_content {
+  background-image: url(img/top-background.jpg);
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.top_content__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-top: 217px;
+  max-width: 789px;
+}
+
+.top_content__text {
+  max-width: 481px;
+  height: 64px;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.button {
+  margin-top: 44px;
+  width: 234px;
+  height: 49px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+}
+
+.button:hover {
+  background: #EB443F;
+}
+
+.games {
+  background-image: url(img/top-background\ game.jpg);
   
-  body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #000915;
-  }
-  .top_content {
-    background-image: url(img/top-background.jpg);
-    height: 1024px;
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  gap: 32px;
+  padding-top: 128px;
+}
+.game_item {
+  border-radius: 16px;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  color: #FFFFFF;
+  align-items: flex-end;
+  align-self: center;
+  padding-left: 32px;
+  background-size: cover;
+  padding-bottom: 32px;
+  background-position: center;
+}
+.game_item_1 {
+  background-image: url(img/game-1.jpg);
+  height: 300px;
+  width: 379px;
+}
+.game_item_2 {
+  background-image: url(img/game-2.jpg);
+  height: 300px;
+  width: 379px;
+}
+.game_item_3 {
+  background-image: url(img/game-3.jpg);
+  height: 300px;
+  width: 379px;
+}
+.game_item_1:hover {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+  background-image: url(img/game-1.jpg);
+  border: 3px solid #44D2FF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.game_item_2:hover {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+  background-image: url(img/game-2.jpg);
+  border: 3px solid #44D2FF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.game_item_3:hover {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+  background-image: url(img/game-3.jpg);
+  border: 3px solid #44D2FF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.step1_content {
+  background-image: url(img/step1-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 282px;
+  display: flex;
+  flex-direction: column;
+}
+.step1_content__title {
+  max-width: 377px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.step1_content__text {
+  max-width: 584px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+.step1_images {
+  width: 485px;
+  height: 333px;
+  margin-left: 839px;
+}
+.step2_content {
+  background-image: url(img/step2-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 282px;
+}
+.step2_content__title {
+  width: 396px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-right: 190px;
+}
+.step2_content__text {
+  width: 588px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+.step2_images {
+  max-width: 481px;
+  height: 322px;
+}
+.button_step2 {
+  margin-top: 44px;
+  width: 234px;
+  height: 49px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  margin-right: 355px;
+}
+.button_step2:hover {
+  background: #EB443F;
+}
+.step3_content {
+  background-image: url(img/step3-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 276px;
+}
+.step3_content__title {
+  width: 392px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.step3_content__text {
+  width: 1200px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+.button_step3 {
+  margin-top: 44px;
+  width: 234px;
+  height: 49px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  margin-bottom: 288px;
+}
+.button_step3:hover {
+  background: #EB443F;
+}
+.footer {
+  background-image: url(img/footer.jpg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.footer_text {
   
-  .top_content__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    padding-top: 217px;
-    max-width: 789px;
-  }
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
   
-  .top_content__text {
-    max-width: 481px;
-    height: 64px;
-    margin-top: 32px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
-  }
-  
-  .top_content__button {
-    margin-top: 44px;
-    width: 234px;
-    height: 49px;
-    background: #9C0332;
-    border-radius: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    align-items: center;
-    color: #FFFFFF;
-  }
-  
-  .top_content__button:hover {
-    background: #EB443F;
-  }
-  
-  .games {
-    background-image: url(img/top-background\ game.jpg);
-    height: 556px;
-    display: flex;
-    gap: 32px;
-    padding-top: 128px;
-  }
-  .game_item {
-    border-radius: 16px;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    color: #FFFFFF;
-    align-items: flex-end;
-    align-self: center;
-    padding-left: 32px;
-    background-size: cover;
-    padding-bottom: 32px;
-    background-position: center;
-  }
-  .game_item_1 {
-    background-image: url(img/game-1.jpg);
-    height: 300px;
-    width: 379px;
-  }
-  .game_item_2 {
-    background-image: url(img/game-2.jpg);
-    height: 300px;
-    width: 379px;
-  }
-  .game_item_3 {
-    background-image: url(img/game-3.jpg);
-    height: 300px;
-    width: 379px;
-  }
-  .game_item_1:hover {
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-    background-image: url(img/game-1.jpg);
-    border: 3px solid #44D2FF;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .game_item_2:hover {
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-    background-image: url(img/game-2.jpg);
-    border: 3px solid #44D2FF;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .game_item_3:hover {
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-    background-image: url(img/game-3.jpg);
-    border: 3px solid #44D2FF;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+}
