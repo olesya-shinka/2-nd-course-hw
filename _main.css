@@ -126,9 +126,8 @@ body {
   background-image: url(img/step1-back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 282px;
+  margin-top: 404px;
   display: flex;
-  flex-direction: column;
 }
 .step1_content__title {
   max-width: 377px;
@@ -136,8 +135,6 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
 }
 .step1_content__text {
@@ -146,50 +143,43 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
   margin-top: 32px;
 }
 .step1_images {
   width: 485px;
   height: 333px;
-  margin-left: 839px;
+  margin-left: 135px;
 }
 .step2_content {
   background-image: url(img/step2-back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: 282px;
+  margin-top: 470px;
 }
 .step2_content__title {
-  width: 396px;
+  max-width: 396px;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
   margin-right: 190px;
 }
 .step2_content__text {
-  width: 588px;
+  max-width: 588px;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
   margin-top: 32px;
 }
 .step2_images {
   max-width: 481px;
   height: 322px;
+  margin-right: 135px;
 }
 .button_step2 {
   margin-top: 44px;
@@ -218,6 +208,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 276px;
+  margin-top: 518px;
+  background-position: center;
 }
 .step3_content__title {
   width: 392px;
