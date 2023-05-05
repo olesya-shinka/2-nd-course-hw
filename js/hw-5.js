@@ -53,19 +53,72 @@ printAge();
 
 //задание 5
 
-let numer = Number(prompt('Введите число 5 или 10'));
+function checkNum(x, y) {
+    if (Number.isNaN(x, y)) {
+        return x, y;
+    }
+    else {
+        return(x * y);
+}
+}
 
-if (numer == 10 || numer == 5) {
-    function checkNum() {
-        console.log('Это корректное число');
+console.log(checkNum(10, 5));
+
+//задание 6
+
+let numer = Number(prompt('Введите любое число'));
+
+function exam(numer) {
+    if (Number.isNaN(numer)) {
+        return numer;
+    } else {
+        return(numer*numer*numer);
     }
-} else {
-    function checkNum() {
-        console.log('Значение не является верным числом');
+}
+
+console.log(exam(numer));
+
+//задание 7
+
+const circle1 = {
+    radius: 50,
+    getArea () {
+        return Math.PI * this.radius * this.radius;
+    },
+    getPerimeter () {
+        return 2*Math.PI * this.radius;
     }
-if (numer == 10 || numer == 5) {
-    
-        console.log('Произведение чисел ')
 }
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+
+const circle2 = {
+    radius: 70,
+    getArea () {
+        return Math.PI * this.radius * this.radius;
+    },
+    getPerimeter () {
+        return 2*Math.PI * this.radius;
+    }
 }
-checkNum();
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
+
+//задание 8
+
+let numMonth = Number(prompt('Введите номер месяца'));
+
+function year(numMonth) {
+    if (numMonth == 12 || numMonth == 1 || numMonth == 2) {
+        console.log("Зима");
+    } else if (numMonth == 3 || numMonth == 4 || numMonth == 5) {
+        console.log("Весна");
+    } else if (numMonth == 6 || numMonth == 7 || numMonth == 8) {
+        console.log("Лето");
+    } else if (numMonth == 9 || numMonth == 10 || numMonth == 11) {
+        console.log("Осень");
+    } else {
+        console.log("Неивестное время года");
+    }
+}
+year(numMonth);
