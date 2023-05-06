@@ -14,4 +14,3 @@ function year() {
          alert("Неивестное время года");
     }
 }
-year();
