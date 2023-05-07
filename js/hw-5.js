@@ -32,21 +32,17 @@ function numberQuare(num) {
 console.log(numberQuare(prompt('Введите число')));
 
 //задание 4
-"use strict";
-let age = prompt('Сколько Вам лет?');
 
-if (age <= 12 ) {
-    function printAge() {
+function printAge() {
+    let age = Number(prompt('Сколько Вам лет?'));
+    if (age <= 12) {
         console.log('Привет, друг!');
-    }
-} else if (age => 13) {
-    function printAge() {
+    } else if (age => 13) {
         console.log('Добро пожаловать!');
+    } {
+    if (age <= 0) {
+        console.log('Вы ввели неправильное значение');
     }
-}
-if (age <= 0) {
-    function printAge() {
-        console.log('Вы ввели неверное число');
     }
 }
 printAge();
@@ -54,29 +50,28 @@ printAge();
 //задание 5
 
 function checkNum(x, y) {
-    if (Number.isNaN(x, y)) {
-        return x, y;
+    if (isNaN(x) || isNaN(y)) {
+        alert('Одно или оба значения не являются числом');
     }
     else {
-        return(x * y);
-}
+        return x * y;
+    }
 }
 
 console.log(checkNum(10, 5));
 
 //задание 6
 
-let numer = Number(prompt('Введите любое число'));
-
-function exam(numer) {
-    if (Number.isNaN(numer)) {
-        return numer;
+function exam() {
+    let numer = Number(prompt('Введите любое число'));
+    if (isNaN(numer)) {
+        alert('Переданный параметр не является числом');
     } else {
-        return(numer*numer*numer);
+        alert(`${numer} в кубе равняется ${numer**3}`);
     }
 }
 
-console.log(exam(numer));
+exam();
 
 //задание 7
 
