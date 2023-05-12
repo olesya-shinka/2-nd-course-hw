@@ -8,8 +8,8 @@ for (let i = 0; i < numbs.length; i++) {
 
 //задание 2
 
-const numer = [1, 5, 4, 10, 0, 3];
-console.log(numer[4]);
+let numer = [1, 5, 4, 10, 0, 3];
+numer.findIndex(i => i == 4);
 
 //задание 3
 
@@ -67,7 +67,7 @@ for (let i of arr) {
 // задание 10
 
 let arrs = [1, 3, 5, 7, 9];
-let result = arrs.reduce(function(sum, i) {
-    return sum = i + 1;
+let result = arrs.reduce(function(sum, current, i) {
+    return sum = current + i;
   });
   console.log(result);
