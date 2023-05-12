@@ -49,14 +49,9 @@ console.log(mean);
 
 //задание 8
 
-function reverseString(string) {
-    let newString = '';
-    for (let i = string.length - 1; i >= 0; i--) {
-        newString += string[i];
-    }
-        return newString;
-}
-console.log(reverseString('abcdef'));
+const strng = 'abcdef';
+const reverse = strng.split('').reverse('');
+console.log(reverse);
 
 //задание 9
 
@@ -72,9 +67,4 @@ for (let i of arr) {
 
 // задание 10
 
-let arrs = [1, 3, 5, 7, 9];
-let rezult = 0;
-for (let i = 0; i < arrs.length; i + 1) {
-  rezult += arrs[i];
-}
-console.log(rezult);
+let 
