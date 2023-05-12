@@ -20,7 +20,9 @@ console.log(nums);
 //задание 4
 
 let oneNum = [
-    [1, 1, 1], [1, 1, 1], [1, 1, 1]
+    [1, 1, 1], 
+    [1, 1, 1], 
+    [1, 1, 1]
 ];
 console.log(oneNum);
 
@@ -46,4 +48,26 @@ console.log(mean);
 
 //задание 8
 
-const letters = ['abcdef'];
+const lettersString = ['a', 'b', 'c', 'd', 'e', 'f'];
+let reverseLetters = lettersString.reverse();
+console.log(reverseLetters);
+
+//задание 9
+
+let arr = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+for (let i of arr) {
+    for (let j of i) {
+      console.log(j);
+    }
+  };
+
+// задание 10
+
+let arrs = [1, 3, 5, 7, 9];
+let result = arrs.reduce(function(sum, i) {
+    return sum = i + 1;
+  });
+  console.log(result);
