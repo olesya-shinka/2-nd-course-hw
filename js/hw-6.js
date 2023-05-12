@@ -2,8 +2,9 @@
 
 const numbs = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < numbs.length; i++) {
-	if (numbs[i] == 10) break;
-	console.log(numbs[i]);
+	if (numbs[i] == 4);
+    console.log(numbs[i]);
+    break;
 }
 
 //задание 2
@@ -48,9 +49,14 @@ console.log(mean);
 
 //задание 8
 
-const lettersString = ['a', 'b', 'c', 'd', 'e', 'f'];
-let reverseLetters = lettersString.reverse();
-console.log(reverseLetters);
+function reverseString(string) {
+    let newString = '';
+    for (let i = string.length - 1; i >= 0; i--) {
+        newString += string[i];
+    }
+        return newString;
+}
+console.log(reverseString('abcdef'));
 
 //задание 9
 
@@ -67,7 +73,8 @@ for (let i of arr) {
 // задание 10
 
 let arrs = [1, 3, 5, 7, 9];
-let result = arrs.reduce(function(sum, current, i) {
-    return sum = current + i;
-  });
-  console.log(result);
+let rezult = 0;
+for (let i = 0; i < arrs.length; i + 1) {
+  rezult += arrs[i];
+}
+console.log(rezult);
