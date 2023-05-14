@@ -87,10 +87,13 @@ console.log(findLength(['skypro', 'frontend', 'developer', 'salary']));
 
 //задание 13
 
-function filterPositive(numbsNum) {
-  let i = 0;
-  numbsNum.push(-25, 25, 0, -1000, -2)
-  if (numbsNum[i] < 0) {
-    console.log(filterPositive([-1, 0, 5, -10, 56]));
+let massiv = [-1, 0, 5, -10, 56];
+massiv.push(-25, 25, 0, -1000, -2);
+let res = massiv.filter(function filterPositive(elem) {
+  if (elem < 0) {
+    return elem;
   }
-}
+});
+console.log(res);
+
+//
