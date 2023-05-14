@@ -65,6 +65,32 @@ for (let i of arr) {
     }
   };
 
-// задание 10
+  // задание 10
 
-let 
+let newArr = [3, 5, 7, 9];
+for (let i = 1; i < newArr.length; i++) {
+  console.log(newArr[i - 1] + newArr[i]);
+}
+
+//задание 11
+
+ var secongArr = [4, 5, 6, 7, 8];
+ var newsecongArr = secongArr.map(function(elem) {
+   return elem * elem;
+ });
+  console.log(newsecongArr);
+
+//задание 12
+
+const findLength = source => source.map(str => str.length);
+console.log(findLength(['skypro', 'frontend', 'developer', 'salary']));
+
+//задание 13
+
+function filterPositive(numbsNum) {
+  let i = 0;
+  numbsNum.push(-25, 25, 0, -1000, -2)
+  if (numbsNum[i] < 0) {
+    console.log(filterPositive([-1, 0, 5, -10, 56]));
+  }
+}
