@@ -96,4 +96,39 @@ let res = massiv.filter(function filterPositive(elem) {
 });
 console.log(res);
 
-//
+//задание 14
+
+let numArr = [];
+let min = 0;
+let max = 10;
+let length = 10;
+for (let i = 0; i < length; i++) {
+   numArr.push(Math.round(Math.random() * (max - min) + min));
+};
+console.log(numArr);
+
+let evenNum = numArr.filter(function (elem){
+  if (elem % 2 == 0) {
+    return true
+  }
+});
+console.log(evenNum);
+
+//задание 15
+
+let sixNum = [];
+let n = 1;
+let m = 10;
+let long = 6;
+for (let i = 0; i < long; i++) {
+  sixNum.push(Math.round(Math.random() * (m - n) + n));
+};
+
+const Average = (sixNum) => {
+  let sum = 0; 
+  for (let i = 0; i < sixNum.length; i += 1) { 
+    sum += sixNum[i]; 
+  }
+  return sum / sixNum.length; 
+};
+console.log(Average(sixNum)); 
