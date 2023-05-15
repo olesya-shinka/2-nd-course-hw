@@ -1,11 +1,12 @@
 //задание 1
 
 const numbs = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < numbs.length; i++) {
-	if (numbs[i] == 4);
-    console.log(numbs[i]);
-    break;
-}
+for (let i = 0; i < numbs.length; i++){
+    console.log(numbs[i])
+    if (numbs[i] == 10) {
+        break;
+    }
+  };
 
 //задание 2
 
@@ -20,24 +21,21 @@ console.log(nums);
 
 //задание 4
 
-let oneNum = [
-    [1, 1, 1], 
-    [1, 1, 1], 
-    [1, 1, 1]
-];
+let oneNum = [1, 1, 1];
+oneNum.push(1, 1, 1, 1, 1, 1);
 console.log(oneNum);
 
 //задание 5
 
-const Numbers = [1, 1, 1];
-Numbers.push(2, 2, 2);
-console.log(Numbers);
+const numbers = [1, 1, 1];
+numbers.push(2, 2, 2);
+console.log(numbers);
 
 //задание 6
 
 const ex = [9, 8, 7, 'a', 6, 5];
 ex.sort();
-delete ex[5];
+ex.splice(5, 5);
 console.log(ex);
 
 //задание 7
@@ -58,14 +56,13 @@ console.log(reverse);
 let arr = [
     [1, 2, 3],
     [4, 5, 6]
-];
-for (let i of arr) {
-    for (let j of i) {
-      console.log(j);
-    }
-  };
+  ];
+let result = arr.reduce(function (a, b) {
+  return a.concat(b);
+});
+console.log(result);
 
-  // задание 10
+// задание 10
 
 let newArr = [3, 5, 7, 9];
 for (let i = 1; i < newArr.length; i++) {
