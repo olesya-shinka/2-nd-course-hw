@@ -21,9 +21,18 @@ console.log(nums);
 
 //задание 4
 
-let oneNum = [1, 1, 1];
-oneNum.push(1, 1, 1, 1, 1, 1);
+let oneNum = [];
+
+for (let i = 0; i < 3; i++) {
+	oneNum[i] = []; // создаем подмассив
+	
+	for (let j = 0; j < 3; j++) {
+		oneNum[i].push(1); // заполняем подмассив числами
+	}
+}
+
 console.log(oneNum);
+
 
 //задание 5
 
