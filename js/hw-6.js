@@ -27,7 +27,7 @@ for (let i = 0; i < 3; i++) {
 	oneNum[i] = []; 
 	
 	for (let j = 0; j < 3; j++) {
-		oneNum[i].push(1); 
+		oneNum[i][j] = 1; 
 	}
 }
 
@@ -44,7 +44,7 @@ console.log(numbers);
 
 const ex = [9, 8, 7, 'a', 6, 5];
 ex.sort();
-ex.splice(5, 5);
+ex.splice(5);
 console.log(ex);
 
 //задание 7
