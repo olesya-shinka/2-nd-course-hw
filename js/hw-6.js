@@ -24,10 +24,10 @@ console.log(nums);
 let oneNum = [];
 
 for (let i = 0; i < 3; i++) {
-	oneNum[i] = []; // создаем подмассив
+	oneNum[i] = []; 
 	
 	for (let j = 0; j < 3; j++) {
-		oneNum[i].push(1); // заполняем подмассив числами
+		oneNum[i].push(1); 
 	}
 }
 
