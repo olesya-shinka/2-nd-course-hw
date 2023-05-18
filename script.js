@@ -32,3 +32,4 @@ function memoryWords() {
         alert('Все ответы неверные');
     }
 }
+;
