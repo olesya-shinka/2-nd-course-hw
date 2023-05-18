@@ -33,19 +33,49 @@ console.log(max);
 
 //задание 5
 
-let numArr = [];
-let minNew = 1;
-let maxNew = 10;
-let length = 1;
-for (let i = 0; i < length; i++) {
-   numArr.push(Math.round(Math.random() * (maxNew - minNew) + minNew));
-};
-console.log(numArr);
+function getRandomInt(minValue, maxValue) {   
+    return Math.round(Math.random() * (maxValue - minValue)) + minValue;
+}                            
+console.log(getRandomInt(1, 10));
 
 //задание 6
 
-function getRandomInt(minValue, maxValue) {
-    return Math.round(Math.random() * (maxValue - minValue) + minValue);
+function getRandomArrNumbers(a) {
+    const numArr2 = [];
+    let miniNew = 4;
+    let maxiNew = 20;
+    let length = a / 2;
+    for (let i = 0; i < length; i++) {
+        numArr2.push(Math.round(Math.random() * (maxiNew - miniNew) + miniNew));
+     };
+     return numArr2;
 }
-(getRandomInt(4, 20));
 
+console.log(getRandomArrNumbers(10));
+
+//задание 7
+
+function getRandomInt(minValue, maxValue) {   
+    return Math.round(Math.random() * (maxValue - minValue)) + minValue
+}                            
+    console.log(getRandomInt(25, 50));
+
+//задание 8
+
+let myDate = new Date;
+console.log(myDate);
+
+//задание 9
+
+let currentDate = new Date;
+currentDate.setDate(73);
+console.log(currentDate);
+
+//задание 10
+
+let todayDate = new Date();
+console.log(todayDate.toLocaleString("ru", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}), todayDate.toLocaleTimeString('ru-RU'));
+
+//задание 11
+
+//находится в файле script.js

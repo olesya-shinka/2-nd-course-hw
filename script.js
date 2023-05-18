@@ -14,3 +14,21 @@ function year() {
          alert("Неивестное время года");
     }
 }
+
+//10
+
+function memoryWords() {
+    let fruit = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruit = fruit.sort(() => Math.random() - 0.5);
+    alert(fruit);
+    let answer = prompt('Чему равнялся первый элемент массива?');
+    let answer2 = prompt('Чему равнялся последний элемент массива?');
+    if (answer.toLowerCase().toUpperCase() == fruit[0] && answer2.toLowerCase().toUpperCase() == fruit[6]) {
+        alert('Позравляем, ты все угадал!');
+    } else if(answer.toLowerCase().toUpperCase() == fruit[0] || answer2.toLowerCase().toUpperCase() == fruit[6]) {
+        alert('Вы были близки к победе!');
+    }
+     else {
+        alert('Все ответы неверные');
+    }
+}
