@@ -23,13 +23,12 @@ function memoryWords() {
     alert(fruit);
     let answer = prompt('Чему равнялся первый элемент массива?');
     let answer2 = prompt('Чему равнялся последний элемент массива?');
-    if (answer.toLowerCase().toUpperCase() == fruit[0] && answer2.toLowerCase().toUpperCase() == fruit[6]) {
+    if (answer.toLowerCase() == fruit[0].toLowerCase() && answer2.toLowerCase() == fruit[6].toLowerCase()) {
         alert('Позравляем, ты все угадал!');
-    } else if(answer.toLowerCase().toUpperCase() == fruit[0] || answer2.toLowerCase().toUpperCase() == fruit[6]) {
+    } else if(answer.toLowerCase() == fruit[0].toLowerCase() || answer2.toLowerCase() == fruit[6].toLowerCase()) {
         alert('Вы были близки к победе!');
     }
      else {
         alert('Все ответы неверные');
     }
 }
-;
