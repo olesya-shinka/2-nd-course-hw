@@ -73,8 +73,12 @@ console.log(currentDate);
 
 //задание 10
 
-let todayDate = new Date();
-console.log(todayDate.toLocaleString("ru", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}), todayDate.toLocaleTimeString('ru-RU'));
+const weekdays = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+let myDateNew = new Date;
+let fullDate = 'Дата: ' + myDateNew.getDate() + '' + myDateNew.getFullYear() + '- это' + weekdays[myDateNew.getDay()] + 'Время: ' + myDateNew.getHours() + ':' + myDateNew.getMinutes() + ':' + myDateNew.getSeconds();
+console.log(fullDate);
+
 
 //задание 11
 

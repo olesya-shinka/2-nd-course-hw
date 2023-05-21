@@ -54,3 +54,48 @@ function log(arrItem) {
 
  people.sort((a, b) => Number(a.age) - Number(b.age));
  console.log(people);
+
+ //задание 2
+
+function isPositive() {
+    const numer = [3, -4, 1, 9];
+    return numer.filter(item => item > 0);
+}
+console.log(isPositive());
+
+function isMale() {
+    const peopleNew = [
+        {name: 'Глеб', gender: 'male'},
+        {name: 'Анна', gender: 'female'},
+        {name: 'Олег', gender: 'male'},
+        {name: 'Оксана', gender: 'female'}
+     ];
+    return peopleNew.filter(person => person.gender.includes('male'));
+}
+console.log(isMale());
+
+function filter() {
+    // писать код тут
+}
+
+//задание 3
+
+// let myDate = new Date;
+// let timerId = setInterval(() => alert(myDate), 3000);
+// let timeOver = '30 секунд прошло';
+// setTimeout(() => { clearInterval(timerId); alert(timeOver); }, 30000);
+
+//задание 4
+
+function delayForSecond(callback) {
+    setTimeout(1000 * 1);
+    clearTimeout(callback);
+    callback();
+}
+
+delayForSecond(function () {
+  console.log('Привет, Глеб!');
+})
+
+// задание 5
+
