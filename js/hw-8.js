@@ -1,49 +1,4 @@
-//фибоначчи
-const fibonacci = [1, 1, 2, 3, 5, 8];
-const multipleByTwoFib = fibonacci.map((num) => num * 2);
-console.log(multipleByTwoFib);
-
-const plusTenFib = fibonacci.map((num) => num + 10);
-console.log(plusTenFib);
-
-const onlyBigFib = fibonacci.filter(function filtr (value) {
-    return value > 3;
-});
-console.log(onlyBigFib);//
-
-//из практики(2)
-
-function log(arrItem) {
-    console.log("Элемент массива:", arrItem);
-  }
-  
-  function each(arr, callback) {
-   for (let i = 0; i < arr.length; i++) {
-    callback(arr[i]);
-   }
-  }
-  each(["Глеб", "Олег", "Татьяна", "Платон"], log);//
-
-  //из практики(1)
-
-  function callbackWithArrayLength(arr, callback) {
-    callback(arr.length); 
-   }
-   
-   callbackWithArrayLength([1], (length) => {
-    console.log(length);
-   });
-   
-   callbackWithArrayLength([1, 1], (len) => {
-    console.log(len);
-   });
-   
-   callbackWithArrayLength([1, 1, 1, 1, 1], (l) => {
-    console.log(l); 
-   }); //
-
-
-   //задание 1
+//задание 1
 
    const people = [
     { name: 'Глеб', age: 29 },
@@ -57,4 +12,63 @@ function log(arrItem) {
 
  //задание 2
 
+ function isPositive(number) {
+  if (number > 0) {
+      return number;
+  }
+}
+
+function isMale(mens) {
+  if (mens.gender == 'male') {
+      return mens;
+  }    
+}
+
+function filter(arr, ruleFunction) {
+  for (let i = 0; i < arr.length; i++) {
+  return arr.filter(ruleFunction);
+
+  }
+}
+
+  console.log(filter([3, -4, 1, 9], isPositive));
+  
+  const peopleTwo = [
+     {name: 'Глеб', gender: 'male'},
+     {name: 'Анна', gender: 'female'},
+     {name: 'Олег', gender: 'male'},
+     {name: 'Оксана', gender: 'female'}
+  ];
+  
+  console.log(filter(peopleTwo, isMale)); 
+
+ //задание 3
+
+//let today = new Date;
+//let timerId = setInterval(() => alert(today), 3000);
+//setTimeout(() => { clearInterval(timerId); alert('Прошло 30 секунд'); }, 30000);//
+
+ //задание 4
+
+function delayForSecond(callback) {
+  setTimeout(callback, 1000);
+}
  
+delayForSecond(function () {
+ console.log('Привет, Глеб!');
+})
+
+ //задание 5
+
+function delayForSecondTwo(cb) {
+  setTimeout(() => {
+      console.log('Прошла одна секунда');
+      if(cb) { 	cb(); }
+  }, 1000)
+}
+
+function sayHi (name) {
+  console.log(`Привет, ${name}!`);
+}
+
+sayHi('Глеб'), delayForSecondTwo();
