@@ -42,8 +42,8 @@ function log(arrItem) {
     console.log(l); 
    }); //
 
-   // задание 1
 
+   //задание 1
 
    const people = [
     { name: 'Глеб', age: 29 },
@@ -54,3 +54,7 @@ function log(arrItem) {
 
  people.sort((a, b) => Number(a.age) - Number(b.age));
  console.log(people);
+
+ //задание 2
+
+ 
