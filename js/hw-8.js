@@ -60,10 +60,10 @@ delayForSecond(function () {
 
  //задание 5
 
-function delayForSecondTwo(cb) {
+ function delayForSecondTwo(cb) {
   setTimeout(() => {
       console.log('Прошла одна секунда');
-      if(cb) { 	cb(); }
+      if(cb) {  cb(); }
   }, 1000)
 }
 
@@ -71,4 +71,4 @@ function sayHi (name) {
   console.log(`Привет, ${name}!`);
 }
 
-sayHi('Глеб'), delayForSecondTwo();
+delayForSecondTwo(() => sayHi('Глеб')); 
