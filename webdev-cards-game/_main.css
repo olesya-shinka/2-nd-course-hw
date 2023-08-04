@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 500px);
+  padding-right: calc(50% - 500px);
+}
+
+@font-face {
+  font-family: StratosSkyeng;
+  src: url("./Web\ fonts/stratosskyengweb-light.woff2");
+  font-weight: 400px;
+}
+
+body {
+  background-color: rgb(0 73 128 / 100%);
+  font-family: StratosSkyeng, sans-serif;
+}
+
+.square {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 158px;
+  margin-bottom: 158px;
+}
+
+.top {
+  background-color: rgb(194 245 255 / 100%);
+  width: 480px;
+  height: 459px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border-radius: 12px;
+}
+
+.top-text {
+  width: 208px;
+  height: 96px;
+  color: rgb(0 73 128 / 100%);
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.levels input {
+  display: none;
+}
+
+.levels label {
+  display: flex;
+  cursor: pointer;
+  width: 98px;
+  height: 98px;
+  font-size: 64px;
+  line-height: 72px;
+  color: rgb(0 128 193 / 100%);
+  border-radius: 12px;
+  background-color: rgb(255 255 255 / 100%);
+  margin: 8px;
+  border: 1px solid #dad0ff;
+  justify-content: center;
+  align-items: center;
+}
+
+.levels label:hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+}
+
+.levels input [type="level"]:checked + label {
+  background-color: lightblue;
+  border: 1px solid lightskyblue;
+}
+
+.levels {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.levels input[type="radio"]:checked + label {
+  background-color: lightblue;
+  border: 1px solid lightblue;
+}
+
+.button-start {
+  color: rgb(255 255 255 / 100%);
+  background-color: rgb(122 193 0 / 100%);
+  width: 246px;
+  height: 48px;
+  font-size: 24px;
+  line-height: 32px;
+  border-radius: 12px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.button-start:hover {
+  background-color: darkslategray;
+  transform: scale(1.05);
+}
+
+.cards-new {
+  display: grid;
+  align-items: center;
+}
+
+.time {
+  color: rgb(255 255 255 / 100%);
+  font-size: 16px;
+  line-height: 32px;
+  padding: 26px;
+}
+
+.min-sec {
+  display: flex;
+  width: 155px;
+  justify-content: space-around;
+  margin-left: 18px;
+}
+
+.time-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer {
+  font-size: 64px;
+  color: rgb(255 255 255 / 100%);
+}
+
+.button-again {
+  width: 246px;
+  height: 48px;
+  font-size: 24px;
+  line-height: 32px;
+  background-color: rgb(122 193 0 / 100%);
+  border-radius: 12px;
+  color: rgb(255 255 255 / 100%);
+}
+
+.button-again:hover {
+  transform: scale(1.05);
+}
+
+.cards-top {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4px;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.button-shirt {
+  border-radius: 4px;
+}
